@@ -42,6 +42,8 @@ The above example will be parsed as follow:
       "remote": "http://www.google-analytics.com/",
       "redirect": "https://www.google.com/analytics/"
    },
+   
+   // ...
 
    // Success
    {
@@ -110,7 +112,7 @@ supported.
 
 - `length` and `type` may be `undefined` or wrong because some server
   response no or wrong value.
-- `elapsed` is `undefined` when incomplete state(`!complete`) and its value may
+- `elapse` is `undefined` when incomplete state(`!complete`) and its value may
   be floating number.
 - `read` may be **inaccurate**. This will be roughly estimated from number of
   dots, or progress and length. Check actual data for accuracy.
